@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Books</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Welcome Overlay -->
+    <div class="welcome-overlay" id="welcomeOverlay">
+        <div class="welcome-content">
+            <h1 class="welcome-title">Your Books</h1>
+            <div class="password-container">
+                <div class="password-input-group">
+                    <input type="password" id="passwordInput" class="password-input" placeholder="Enter Password">
+                    <button id="submitPassword" class="password-submit">
+                        <i class="fas fa-lock-open"></i>
+                    </button>
+                </div>
+                <div id="errorMessage" class="error-message">Oh! Sorry</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Book Container -->
+    <div class="books-container hidden" id="booksContainer">
+        <!-- Book Display Area -->
+        <div class="book-display" id="bookDisplay">
+            <!-- Current book will be displayed here -->
+        </div>
+
+        <!-- Navigation -->
+        <div class="book-navigation" id="bookNavigation">
+            <button id="prevButton" class="nav-button prev-button">
+                <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <div class="page-indicator" id="pageIndicator">1 / 3</div>
+            <button id="nextButton" class="nav-button next-button">
+                Next <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

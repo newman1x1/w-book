@@ -21,7 +21,7 @@ A beautiful, interactive way to showcase your personal book collection with a pa
 
 1. **Clone** this repository to your computer:
    ```bash
-   git clone https://github.com/newman1x1/w-book.git
+   git clone https://github.com/422442/w-book.git
    ```
 2. **Open the folder** containing the files
 3. **Customize your collection** by:
